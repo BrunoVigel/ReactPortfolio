@@ -4,7 +4,10 @@ div.hero {
     background-image: url(../../Assets/Images/hero-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    filter: contrast(145%);
 }
+
+
 
 .hero {
     color: white;
@@ -59,4 +62,13 @@ p {
   .hero .container + .container button:focus {
   box-shadow: 0 0.5em 0.5em -0.4em #a972cb;
   transform: translateY(-0.25em);
+}
+
+@media (max-width:1280px) {
+    div.hero {
+    height: 100vh
+    }
+    .hero h1 {
+        margin-top: 5rem;
+    }
 }
