@@ -1,0 +1,130 @@
+nav {
+    display: flex;
+    padding-top: 3.5rem;
+
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    opacity: 1;
+    font-size: 1.5rem
+}
+
+a {
+    position:relative;
+    cursor: pointer;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+nav button {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    border: none;
+    border-radius: 4px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+
+nav button::before {
+    position: absolute;
+    top: 10px;
+    background-color: white;
+    content: "";
+    width: 30px;
+    height: 4px;
+    display: block;
+    border-radius: 4px;
+}
+
+nav button::after {
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    content: "";
+    width: 30px;
+    height: 4px;
+    display: block;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+
+.modal {
+    display: none;
+}
+
+.modal ul {
+    color: #a972cb;
+}
+
+@media(max-width:767px) {
+
+    ul {
+        opacity: 0;
+    }
+
+    nav button {
+        
+        display: block;
+    }
+
+    .modal {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        animation-name: modalFade;
+        animation-duration: .3s;
+    }
+
+    .modal ul {
+        opacity: 1;
+        color: white;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+    }
+
+    .modal ul li {
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    @keyframes modalFade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}

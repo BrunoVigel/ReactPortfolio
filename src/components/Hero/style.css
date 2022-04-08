@@ -1,0 +1,62 @@
+div.hero {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../../Assets/Images/hero-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    color: white;
+}
+
+h1 {
+    margin-top: 10rem;
+    font-size: 4rem;
+    animation: fadeinTitle 1s;
+}
+
+p {
+    max-width: 70rem;
+    font-size: 1.5rem;
+    animation: fadeInIntro 1.5s;
+}
+
+
+@keyframes fadeInIntro {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinTitle {
+    from { 
+        opacity: 0; 
+        transform: translateY(-50px);
+    }
+    to   { 
+        opacity: 1; 
+        transform: translateY(0px);
+    }
+}
+
+.hero .container + .container button {
+    background: none;
+    border: 2px solid #a972cb;
+    color: #a972cb;
+    font: inherit;
+    line-height: 1;
+    padding: 1em 2em;
+    margin-top: 2rem;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  .hero .container + .container button:hover,
+  .hero .container + .container button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #a972cb;
+  transform: translateY(-0.25em);
+}
