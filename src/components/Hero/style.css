@@ -1,5 +1,4 @@
 div.hero {
-    width: 100vw;
     height: 90vh;
     background-image: url(../../Assets/Images/hero-image.jpg);
     background-position: center;
@@ -13,13 +12,13 @@ div.hero {
     color: white;
 }
 
-h1 {
+.hero h1 {
     margin-top: 10rem;
     font-size: 4rem;
     animation: fadeinTitle 1s;
 }
 
-p {
+.hero p {
     max-width: 70rem;
     font-size: 1.5rem;
     animation: fadeInIntro 1.5s;

@@ -17,18 +17,15 @@ export function Navbar() {
                 {modal ? 
                 <div className="modal">
                     <ul>
-                    <li>
-                        <a>Portfolio</a>
-                    </li>
-                    <li>
-                        <a>Contato</a>
-                    </li>
-                    <li>
-                        <a>Menu</a>
-                    </li>
-                    <li>
-                        <a>Menu</a>
-                    </li>
+                        <li>
+                            <a href='#projetos'>Projetos</a>
+                        </li>
+                        <li>
+                            <a>Contato</a>
+                        </li>
+                        <li>
+                            <a>Menu</a>
+                        </li>
                     </ul>
                 </div> : null}
             </>
@@ -40,16 +37,13 @@ export function Navbar() {
             <nav>
                 <ul>
                     <li>
-                        <a>Portfolio</a>
+                        <a href="#projetos">Projetos</a>
                     </li>
                     <li>
                         <a>Contato</a>
                     </li>
                     <li>
                         <a>Skills</a>
-                    </li>
-                    <li>
-                        <a>Menu</a>
                     </li>
                 </ul>
                 <button onClick={handleClick}></button>

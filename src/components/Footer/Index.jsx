@@ -1,7 +1,13 @@
+import './style.css'
+
 export function Footer() {
     return (
         <footer>
-            
+            <div className="container">
+                <p>Entre em contato comigo</p>
+                <a href="">Whatsapp</a>
+            </div>
+            <p>2022. Todos os direitos reservados.</p>
         </footer>
     )
 }

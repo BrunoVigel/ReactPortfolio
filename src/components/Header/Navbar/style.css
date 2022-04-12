@@ -12,12 +12,12 @@ ul {
     font-size: 1.5rem
 }
 
-a {
+header a {
     position:relative;
     cursor: pointer;
 }
 
-a::after {
+header a::after {
     content: "";
     position: absolute;
     background-color: white;
@@ -28,7 +28,7 @@ a::after {
     transition: 0.3s;
 }
 
-a:hover::after {
+header a:hover::after {
     width: 100%;
 }
 
@@ -36,9 +36,9 @@ nav button {
     cursor: pointer;
     display: none;
     position: fixed;
-    right: 20px;
-    top: 30px;
-    background-color: #a972cb;
+    right: 40px;
+    top: 40px;
+    background-color: white;
     width: 30px;
     height: 4px;
     border: none;
@@ -51,7 +51,7 @@ nav button {
 nav button::before {
     position: absolute;
     top: 10px;
-    background-color: #a972cb;
+    background-color: white;
     content: "";
     width: 30px;
     height: 4px;
@@ -62,7 +62,7 @@ nav button::before {
 nav button::after {
     position: absolute;
     bottom: 0px;
-    background-color: #a972cb;
+    background-color: white;
     content: "";
     width: 30px;
     height: 4px;
@@ -89,7 +89,7 @@ nav button::after {
 
     .modal {
         display: block;
-        width: 100vw;
+        width: 97.6vw;
         height: 100vh;
         background: black;
         position: fixed;
