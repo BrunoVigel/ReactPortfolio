@@ -22,6 +22,7 @@ div.hero {
     max-width: 70rem;
     font-size: 1.5rem;
     animation: fadeInIntro 1.5s;
+    margin-bottom: 2rem;
 }
 
 
@@ -45,20 +46,18 @@ div.hero {
     }
 }
 
-.hero .container + .container button {
+.hero .container + .container a {
     background: none;
     border: 2px solid #a972cb;
     color: #a972cb;
     font: inherit;
-    line-height: 1;
     padding: 1em 2em;
-    margin-top: 2rem;
     transition: .3s;
     cursor: pointer;
   }
 
-  .hero .container + .container button:hover,
-  .hero .container + .container button:focus {
+  .hero .container + .container a:hover,
+  .hero .container + .container a:focus {
   box-shadow: 0 0.5em 0.5em -0.4em #a972cb;
   transform: translateY(-0.25em);
 }

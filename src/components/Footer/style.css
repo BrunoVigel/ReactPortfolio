@@ -26,6 +26,10 @@ footer div:first-child a {
     display: inline-flex;
 }
 
+footer div:first-child span {
+    margin-right: .5rem;
+}
+
 footer div + p {
     background-color: #a972cb;
 

@@ -1,14 +1,16 @@
+import { Header } from "../../components/Header";
+import '../../components/Projetos/style.css'
+
 import {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {NavLink} from 'react-router-dom'
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './style.css'
 
-export function Projetos() { 
+export function Projetos() {
     return (
         <>
-            <section className="container" id="projetos">
+           <Header />
+           <section className="container" id="projetos">
                 <h2>Projetos</h2>
                 <div className="projeto">
                     <Swiper
@@ -39,7 +41,6 @@ export function Projetos() {
                         </ul>
                     </div>
                 </div>
-                <NavLink to='/projetos'>Ver mais</NavLink>
             </section>
         </>
     )

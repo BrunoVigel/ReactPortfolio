@@ -1,6 +1,7 @@
 import { Header } from "../Header";
 import "./style.css";
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { NavLink } from "react-router-dom";
 
 export function Hero() {
   return (
@@ -15,7 +16,7 @@ export function Hero() {
             funcionalidade das aplicações e na forma mais limpa de
             desenvolvê-las.
           </p>
-          <button>Entre em contato</button>
+          <NavLink to='/contato'>Entre em contato</NavLink>
         </div>
       </div>
     </>

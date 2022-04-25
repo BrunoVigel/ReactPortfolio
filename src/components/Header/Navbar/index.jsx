@@ -1,5 +1,6 @@
 import './style.css'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 
 export function Navbar() {
@@ -18,13 +19,16 @@ export function Navbar() {
                 <div className="modal">
                     <ul>
                         <li>
-                            <a href='#projetos'>Projetos</a>
+                            <NavLink to='/'>Home</NavLink>
                         </li>
                         <li>
-                            <a>Contato</a>
+                            <NavLink to='/projetos'>Projetos</NavLink>
                         </li>
                         <li>
-                            <a>Menu</a>
+                            <NavLink to='/contato'>Contato</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/skills'>Skills</NavLink>
                         </li>
                     </ul>
                 </div> : null}
@@ -37,13 +41,16 @@ export function Navbar() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#projetos">Projetos</a>
+                        <NavLink to='/'>Home</NavLink>
                     </li>
                     <li>
-                        <a>Contato</a>
+                        <NavLink to='/projetos'>Projetos</NavLink>
                     </li>
                     <li>
-                        <a>Skills</a>
+                        <NavLink to='/contato'>Contato</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/skills'>Skills</NavLink>
                     </li>
                 </ul>
                 <button onClick={handleClick}></button>
