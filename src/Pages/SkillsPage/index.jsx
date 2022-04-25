@@ -1,11 +1,10 @@
-import { Header } from "../../Components/Header";
+
 import "../../Components/Skills/style.css";
 
 
 export function SkillsPage() {
   return (
     <>
-      <Header />
       <section className="container" id="skills">
         <h2>Skills</h2>
         <div className="cards">
