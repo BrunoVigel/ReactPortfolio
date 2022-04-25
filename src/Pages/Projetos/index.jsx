@@ -1,6 +1,5 @@
 import { Header } from "../../Components/Header";
 import '../../Components/Projetos/style.css'
-import {Footer} from '../../Components/Footer'
 
 import {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -43,7 +42,6 @@ export function Projetos() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </>
     )
 }
