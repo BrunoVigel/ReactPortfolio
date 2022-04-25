@@ -4,7 +4,7 @@ import {Home} from './Pages/Home'
 import { Contato } from './Pages/Contato'
 import { SkillsPage } from './Pages/SkillsPage'
 import { Projetos } from './Pages/Projetos'
-import { Footer } from '../src/components/Footer'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -17,9 +17,8 @@ function App() {
           <Route path='/skills' element={<SkillsPage />} />
           <Route path='/projetos' element={<Projetos />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
-      
+      <Footer />
     </div>
   )
 }
