@@ -1,6 +1,6 @@
-import {Hero} from '../../components/Hero'
-import {Projetos} from '../../components/Projetos'
-import {Skills} from '../../components/Skills'
+import {Hero} from '../../Components/Hero'
+import {Projetos} from '../../Components/Projetos'
+import {Skills} from '../../Components/Skills'
 
 
 

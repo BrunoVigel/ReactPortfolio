@@ -1,5 +1,5 @@
-import { Header } from "../../components/Header";
-import "../../components/Skills/style.css";
+import { Header } from "../../Components/Header";
+import "../../Components/Skills/style.css";
 
 export function SkillsPage() {
   return (
