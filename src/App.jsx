@@ -4,7 +4,6 @@ import {Home} from './Pages/Home'
 import { Contato } from './Pages/Contato'
 import { SkillsPage } from './Pages/SkillsPage'
 import { Projetos } from './Pages/Projetos'
-import { Footer } from './Components/Footer'
 
 function App() {
 
@@ -18,7 +17,6 @@ function App() {
           <Route path='/projetos' element={<Projetos />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </div>
   )
 }

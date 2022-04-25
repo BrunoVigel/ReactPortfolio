@@ -1,5 +1,6 @@
 import { Header } from "../../Components/Header";
 import "../../Components/Skills/style.css";
+import {Footer} from '../../Components/Footer'
 
 export function SkillsPage() {
   return (
@@ -253,6 +254,7 @@ export function SkillsPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
