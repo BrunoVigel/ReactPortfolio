@@ -4,7 +4,7 @@ import {Home} from './Pages/Home'
 import { Contato } from './Pages/Contato'
 import { SkillsPage } from './Pages/SkillsPage'
 import { Projetos } from './Pages/Projetos'
-import {Footer} from './Components/footer'
+import {Footer} from './Components/footer/index'
 
 function App() {
 
