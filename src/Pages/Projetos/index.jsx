@@ -1,5 +1,5 @@
-import { Header } from "../../Components/Header";
-import '../../Components/Projetos/style.css'
+import { Header } from "../../components/Header";
+import '../../components/Projetos/style.css'
 
 import {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
