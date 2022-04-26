@@ -1,0 +1,171 @@
+.ContactForm form {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactForm form .input-info {
+    display: flex;
+}
+
+.ContactForm form .input-info .group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.ContactForm form .input-info .group:nth-child(1) {
+    margin-right: 7rem;
+}
+
+.ContactForm form input {
+    font-size:1.125rem;
+    padding:10px;
+    width:100%;
+    border:1px solid #757575;
+    border-radius: 6px;
+}
+
+.ContactForm form input:focus {
+    outline: none;
+    border: 1px solid #a972cb;
+}
+
+.ContactForm label {
+    color:#999; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:10px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+}
+
+.ContactForm form input:focus ~ label, .ContactForm form input:valid ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 14px;
+    color: #a972cb;
+    background-color: white;
+    border-radius: 6px;
+    z-index: 999;
+}
+
+.ContactForm form .group-message textarea:focus ~ label, .ContactForm form .group-message textarea:valid ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 14px;
+    color: #a972cb;
+    background-color: white;
+    border-radius: 6px;
+    z-index: 999;
+}
+
+.ContactForm form .bar {
+    position:relative; 
+    display:block; 
+    width:300px; 
+}
+
+.ContactForm form .bar:before, .ContactForm form .bar:after {
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#a972cb; 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+}
+
+.ContactForm form .bar:before {
+    left: 50%
+}
+
+.ContactForm form .bar:after {
+    right: 50%;
+}
+
+.ContactForm form input:focus ~ .bar:before, .ContactForm form input:focus ~ .bar:after {
+    width: 50%;
+}
+
+.ContactForm form .highlight {
+    position:absolute;
+    height:60%; 
+    width:100px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+}
+
+.ContactForm form input:focus .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+}
+
+@keyframes inputHighlighter {
+    from { background:#a972cb; }
+    to 	{ width:0; background:transparent; }
+}
+
+.ContactForm form .group-message {
+    position: relative;
+    width: 45rem;
+}
+
+.ContactForm form .group-message textarea {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    outline: none;
+}
+
+.ContactForm form .group-message textarea:focus {
+    border: 1px solid #a972cb;
+}
+
+.ContactForm form .group-message textarea:focus ~ label {
+    font-size: 14px;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    color: #a972cb;
+}
+
+.ContactForm form .group-message label {
+    position: absolute;
+    left:10px;
+    top:10px;
+    color:#999; 
+    font-size:18px;
+    font-weight:normal;
+    pointer-events:none;
+    transition: .2s;
+}
+
+.ContactForm form button {
+    border: none;
+      background-color: #a972cb;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      margin-top: 1rem;
+      width: 40%;
+      cursor: pointer;
+      transition: .2s;
+}
+
+.ContactForm form button:hover {
+    background-color: #9061ae;
+}
