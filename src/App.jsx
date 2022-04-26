@@ -4,7 +4,7 @@ import './App.css'
 // import { Contato } from './Pages/Contato'
 // import { SkillsPage } from './Pages/SkillsPage'
 // import { Projetos } from './Pages/Projetos'
-import {Footer} from './caralha/Footer'
+import {Footer} from './components/Footer'
 
 function App() {
 
