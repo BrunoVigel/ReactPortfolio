@@ -1,5 +1,5 @@
 
-import "../../Components/Skills/style.css";
+import "../../components/Skills/style.css";
 
 
 export function SkillsPage() {
