@@ -2,10 +2,14 @@
 import "../../components/Skills/style.css";
 import {Header} from '../../components/Header'
 
+import Head from '../../Helper/Head'
+
+
 
 export function SkillsPage() {
   return (
     <>
+      <Head title="Skills" />
       <Header />
       <section className="container" id="skills">
         <h2>Skills</h2>

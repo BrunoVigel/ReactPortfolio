@@ -1,5 +1,4 @@
 .ContactForm form {
-    background-color: white;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -118,7 +117,7 @@
 
 .ContactForm form .group-message {
     position: relative;
-    width: 45rem;
+    min-width: 712px;
 }
 
 .ContactForm form .group-message textarea {
@@ -158,10 +157,9 @@
     border: none;
       background-color: #a972cb;
       color: white;
-      padding: 0.5rem 1rem;
+      padding: 1rem 2rem;
       border-radius: 6px;
       margin-top: 1rem;
-      width: 40%;
       cursor: pointer;
       transition: .2s;
 }

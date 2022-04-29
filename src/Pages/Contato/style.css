@@ -1,3 +1,28 @@
 #contato {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contato .contact-banner {
+    display: flex;
+    justify-content: center;
+}
+
+#contato .icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#contato .icons a {
+    background-color: #a972cb;
+    font-size: 4rem;
+    padding: 0 1.5rem;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+#contato .icons a:hover {
+    background-color: #9061ae;
 }

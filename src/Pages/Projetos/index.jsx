@@ -6,9 +6,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import Head from '../../Helper/Head'
+
+
 export function Projetos() {
     return (
         <>
+            <Head title="Projetos" />
            <Header />
            <section className="container" id="projetos">
                 <h2>Projetos</h2>

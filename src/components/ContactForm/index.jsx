@@ -43,7 +43,7 @@ export function ContactForm() {
             />
             <span className="highlight"></span>
             <span className="bar"></span>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nome</label>
           </div>
           <div className="group">
             <input
@@ -68,9 +68,9 @@ export function ContactForm() {
             value={query.message}
             onChange={handleParam()}
           />
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Mensagem</label>
         </div>
-        <button className="submit" type="submit">Send</button>
+        <button className="submit" type="submit">Enviar</button>
       </form>
     </div>
   );
