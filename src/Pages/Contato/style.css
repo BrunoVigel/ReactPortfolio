@@ -26,3 +26,20 @@
 #contato .icons a:hover {
     background-color: #9061ae;
 }
+
+
+@media(max-width:975px) {
+
+    .ContactForm form .input-info {
+        display: block;
+        min-width: 420px;
+    }
+
+    .ContactForm form .input-info .group:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .ContactForm form .group-message {
+        min-width: 420px;
+    }
+}
