@@ -6,6 +6,8 @@ import { SkillsPage } from './Pages/SkillsPage'
 import { Projetos } from './Pages/Projetos'
 import { Footer } from './components/Footer'
 
+import {BackToTop} from './components/BackToTop'
+
 function App() {
 
 
@@ -19,6 +21,8 @@ function App() {
           <Route path='/projetos' element={<Projetos />} />
         </Routes>
         <Footer />
+      <BackToTop />
+
       </BrowserRouter>
       
     </div>

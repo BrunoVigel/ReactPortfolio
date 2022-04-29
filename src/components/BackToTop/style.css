@@ -1,0 +1,14 @@
+.back-to-top {
+    background-color: black;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border: none;
+    padding: .5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.back-to-top span {
+    color:white;
+}

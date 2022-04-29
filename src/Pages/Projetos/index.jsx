@@ -6,6 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+
+
 import Head from '../../Helper/Head'
 
 
@@ -22,16 +24,16 @@ export function Projetos() {
                     pagination={{ clickable: true }}
                     >
                         <SwiperSlide>
-                            <img src="src\Assets\Images\Captura de tela 2022-04-11 131350.png" alt="Imagem do projeto" />
+                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="src\Assets\Images\Captura de tela 2022-04-11 131350.png" alt="Imagem do projeto" />
+                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="src\Assets\Images\Captura de tela 2022-04-11 131350.png" alt="Imagem do projeto" />
+                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="src\Assets\Images\Captura de tela 2022-04-11 131350.png" alt="Imagem do projeto" />
+                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                     </Swiper> 
                     <div className="descricao-projeto">

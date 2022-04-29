@@ -19,7 +19,7 @@ export function Contato() {
                 <div className="icons">
                         <a href="https://www.linkedin.com/in/brunodarosavigel/"  target="_blank"><span className="fa fa-linkedin"></span></a>
                         <a href="https://www.instagram.com/brunovigel" target="_blank"><span className="fa fa-instagram"></span></a>
-                        <a href="https://github.com/BrunoVigel" target="_blank"><span className="fa fa-github"></span></a>
+                        <a href="https://github.com/BrunoVigel"target="_blank"><span className="fa fa-github"></span></a>
                 </div>
                 <ContactForm />
             </section>
