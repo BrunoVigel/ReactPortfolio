@@ -1,10 +1,13 @@
 import './style.css'
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
+
 
 
 export function Navbar() {
     const [modal, setModal] = React.useState(false)
+
+    const location = useLocation();
 
 
     function handleClick() {
@@ -36,8 +39,9 @@ export function Navbar() {
         )
     }
 
-    return(
-        <>
+    function Nav() {
+        return (<>
+            {location.pathname == '/' ? 
             <nav>
                 <ul>
                     <li>
@@ -54,7 +58,30 @@ export function Navbar() {
                     </li>
                 </ul>
                 <button onClick={handleClick}></button>
-            </nav>
+            </nav> : 
+            <nav style={{paddingTop: '1.5rem', paddingBottom: '1.5rem'}}>
+                <ul>
+                    <li>
+                        <NavLink to='/'>Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/projetos'>Projetos</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/contato'>Contato</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/skills'>Skills</NavLink>
+                    </li>
+                </ul>
+                <button onClick={handleClick}></button>
+            </nav>} 
+        </>)
+    }
+
+    return(
+        <>
+            <Nav />
             <Modal />
         </>
     )

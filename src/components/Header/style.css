@@ -5,3 +5,9 @@ header {
     position: relative;
 
 }
+
+@media(max-width:767px) {
+    header {
+        background-color: transparent !important;
+    }
+}
