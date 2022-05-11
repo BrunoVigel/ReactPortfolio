@@ -25,8 +25,8 @@
     box-shadow: 3px 3px #a972cb;
 }
 
-#skills .cards .card svg {
-    max-width: 250px;
+#skills .cards .card img {
+    width: 250px;
 }
 
 #skills .cards .card dl {
