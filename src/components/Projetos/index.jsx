@@ -16,16 +16,16 @@ export function Projetos() {
                     pagination={{ clickable: true }}
                     >
                         <SwiperSlide>
-                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
+                            <img src="src/Assets/Images/print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
+                            <img src="src/Assets/Images/print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
+                            <img src="src/Assets/Images/print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="src\Assets\Images\print1.png" alt="Imagem do projeto" />
+                            <img src="src/Assets/Images/print1.png" alt="Imagem do projeto" />
                         </SwiperSlide>
                     </Swiper> 
                     <div className="descricao-projeto">
