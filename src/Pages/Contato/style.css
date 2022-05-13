@@ -7,6 +7,13 @@
 #contato .contact-banner {
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
+}
+
+#contato .socials p {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
 }
 
 #contato .icons {
@@ -27,8 +34,26 @@
     background-color: #9061ae;
 }
 
+#contato .message {
+    margin-top: 2rem;
+}
+
+#contato .message p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 
 @media(max-width:975px) {
+
+    #contato .contact-banner img {
+        max-width: 450px;
+    }
+
+    #contato .icons a {
+        font-size: 3rem;
+        padding: 0 1rem;
+    }
 
     .ContactForm form .input-info {
         display: block;

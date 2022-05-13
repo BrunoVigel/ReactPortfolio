@@ -20,9 +20,8 @@ function App() {
           <Route path='/skills' element={<SkillsPage />} />
           <Route path='/projetos' element={<Projetos />} />
         </Routes>
-        <Footer />
+      <Footer />
       <BackToTop />
-
       </BrowserRouter>
       
     </div>

@@ -18,12 +18,18 @@ export function Contato() {
                 <div className="contact-banner">
                     <img src={contactSVG} alt="" />
                 </div>
-                <div className="icons">
-                        <a href="https://www.linkedin.com/in/brunodarosavigel/"  target="_blank"><span className="fa fa-linkedin"></span></a>
-                        <a href="https://www.instagram.com/brunovigel" target="_blank"><span className="fa fa-instagram"></span></a>
-                        <a href="https://github.com/BrunoVigel"target="_blank"><span className="fa fa-github"></span></a>
+                <div className="socials">
+                    <p>Me siga nas redes sociais!</p>
+                    <div className="icons">
+                            <a href="https://www.linkedin.com/in/brunodarosavigel/"  target="_blank"><span className="fa fa-linkedin"></span></a>
+                            <a href="https://www.instagram.com/brunovigel" target="_blank"><span className="fa fa-instagram"></span></a>
+                            <a href="https://github.com/BrunoVigel"target="_blank"><span className="fa fa-github"></span></a>
+                    </div>
                 </div>
-                <ContactForm />
+                <div className="message">
+                    <p>Ou envie uma mensagem</p>
+                    <ContactForm />
+                </div>
             </section>
         </>
     )
